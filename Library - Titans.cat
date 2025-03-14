@@ -1035,7 +1035,6 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
-    <categoryEntry name="Faction: Adeptus Titanicus" hidden="false" id="169a-d3f4-23b5-ba7"/>
     <categoryEntry name="Faction: Titanicus Traitoris" hidden="false" id="fe43-3689-1f33-b408"/>
     <categoryEntry name="Warhound Titan" hidden="false" id="6999-afed-25ac-617b"/>
     <categoryEntry name="Reaver Titan" hidden="false" id="8823-94b2-dd20-1242"/>
@@ -1063,9 +1062,6 @@
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1077,36 +1073,6 @@
         </modifier>
       </modifiers>
       <comment>Chaos</comment>
-    </entryLink>
-    <entryLink import="true" name="Reaver Titan" hidden="false" type="selectionEntry" id="49c7-851e-6326-fb7c" targetId="b7e8-f3ae-be53-9ba5">
-      <categoryLinks>
-        <categoryLink targetId="887b-ab87-92a2-20f5" id="814c-239e-91e4-653" primary="true" name="Allied Units"/>
-        <categoryLink targetId="c4de-48cd-335f-8a7f" id="62e-36dd-e318-9d43" primary="false" name="Titanic Support"/>
-        <categoryLink targetId="169a-d3f4-23b5-ba7" id="2ed2-357d-5d42-499c" primary="false" name="Faction: Adeptus Titanicus"/>
-        <categoryLink targetId="aff3-d6a3-2a95-9dc" id="84b4-d0e1-805d-a450" primary="false" name="Imperium"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="f26b-79db-80e0-3a3b" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <comment>Imperium</comment>
     </entryLink>
     <entryLink import="true" name="Warbringer Nemesis Titan" hidden="false" type="selectionEntry" id="1564-6ed2-e6d4-4dbe" targetId="8e6f-4e09-12d5-fafd">
       <categoryLinks>
@@ -1123,9 +1089,6 @@
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1153,9 +1116,6 @@
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1183,9 +1143,6 @@
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
                 <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1197,96 +1154,6 @@
         </modifier>
       </modifiers>
       <comment>Chaos</comment>
-    </entryLink>
-    <entryLink import="true" name="Warbringer Nemesis Titan" hidden="false" type="selectionEntry" id="ed2a-94a1-d5f8-a036" targetId="8e6f-4e09-12d5-fafd">
-      <categoryLinks>
-        <categoryLink targetId="887b-ab87-92a2-20f5" id="872a-8cc5-36b2-bae0" primary="true" name="Allied Units"/>
-        <categoryLink targetId="c4de-48cd-335f-8a7f" id="fa81-e0d3-881d-2d7f" primary="false" name="Titanic Support"/>
-        <categoryLink targetId="169a-d3f4-23b5-ba7" id="75e2-1ad8-1ede-ad44" primary="false" name="Faction: Adeptus Titanicus"/>
-        <categoryLink targetId="aff3-d6a3-2a95-9dc" id="c063-54b9-c750-52fc" primary="false" name="Imperium"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="f26b-79db-80e0-3a3b" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <comment>Imperium</comment>
-    </entryLink>
-    <entryLink import="true" name="Warhound Titan" hidden="false" type="selectionEntry" id="cc59-104d-e445-689" targetId="8eb5-a990-6eb0-9b41">
-      <categoryLinks>
-        <categoryLink targetId="887b-ab87-92a2-20f5" id="c393-5059-c48c-e0b5" primary="true" name="Allied Units"/>
-        <categoryLink targetId="c4de-48cd-335f-8a7f" id="c9d4-596f-772f-4ad7" primary="false" name="Titanic Support"/>
-        <categoryLink targetId="169a-d3f4-23b5-ba7" id="435a-56ae-9e5f-c7e5" primary="false" name="Faction: Adeptus Titanicus"/>
-        <categoryLink targetId="aff3-d6a3-2a95-9dc" id="bb34-e5e5-ab94-fe76" primary="false" name="Imperium"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="f26b-79db-80e0-3a3b" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <comment>Imperium</comment>
-    </entryLink>
-    <entryLink import="true" name="Warlord Titan" hidden="false" type="selectionEntry" id="12c5-1c2d-92a5-c628" targetId="eafa-cd47-1c2f-61ee">
-      <categoryLinks>
-        <categoryLink targetId="887b-ab87-92a2-20f5" id="e997-54f-579a-dc11" primary="true" name="Allied Units"/>
-        <categoryLink targetId="c4de-48cd-335f-8a7f" id="618a-9683-321c-a5e6" primary="false" name="Titanic Support"/>
-        <categoryLink targetId="169a-d3f4-23b5-ba7" id="7587-7ddb-42c5-2813" primary="false" name="Faction: Adeptus Titanicus"/>
-        <categoryLink targetId="aff3-d6a3-2a95-9dc" id="75b-8c15-3e3a-1a2d" primary="false" name="Imperium"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="roster" childId="f26b-79db-80e0-3a3b" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <comment>Imperium</comment>
     </entryLink>
   </entryLinks>
 </catalogue>
